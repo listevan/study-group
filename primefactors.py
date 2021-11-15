@@ -12,6 +12,5 @@ def factor(num, fin):
                 prime = False
         if (num%i == 0 and prime):
             fin.append(i)
-            print(fin)
             return(factor(num/i, fin))
 print(factor(num, fin))
