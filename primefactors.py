@@ -1,6 +1,6 @@
 num = int(input('enter a number: '))
 fin = []
-def factor(num, fin):
+def primefactor(num, fin):
     if num == 1:
         fin.append(1)
         fin.sort()
